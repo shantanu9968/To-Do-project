@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(23, 23, 23);
+    color: rgb(237, 237, 237);
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.Todo-input-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Todo-input-wrapper input{
+    width: 320px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-size: 28px;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.Todo-input-wrapper button{
+    padding: 0px 28px;
+    font-size: 24px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(0, 102, 255);
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.Todo-input-wrapper button:hover{
+background-color: rgb(0, 63, 159);
+}
+
+.Todos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.Todo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.Todo button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.mark-as-done-btn{
+    background-color: rgb(16, 222,16);
+}
+
+.delete-btn{
+    background-color: yellow;
+}

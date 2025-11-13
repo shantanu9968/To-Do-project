@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>best to do application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Todo-list 📃</h1>
+    <div class="Todo-input-wrapper">
+      <input type="text" placeholder="Enter todo..." id="Todo-input" />
+      <button onclick="addTodo()">Add Todo</button>
+    </div>
+
+    <div class="Todos-container" id="Todos-wrapper">
+      <div class="Todo">
+        <p>learn js</p>
+        <button class="mark-as-done-btn">mark as done</button>
+        <button class="delete-btn">delete</button>
+      </div>
+      <div class="Todo">
+        <p>learn full stack dev</p>
+        <button class="mark-as-done-btn">mark as done</button>
+        <button class="delete-btn">delete</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
